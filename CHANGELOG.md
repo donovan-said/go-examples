@@ -17,6 +17,17 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.2.0]
+
+### Chnaged
+
+* Repo structure to better reflect Go standards
+* Split sorting script into two functions
+
+### Added
+
+* Unit tests for the sorting algos
+
 ## [0.1.0]
 
 ### Added
