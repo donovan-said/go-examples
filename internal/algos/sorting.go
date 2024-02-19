@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-func Sorting(nums []int, words []string) (ordered_num []int, ordered_words []string) {
+func SortNums(nums []int) (ordered_num []int) {
 	/*
 		Sorting integers:
 
@@ -15,6 +15,10 @@ func Sorting(nums []int, words []string) (ordered_num []int, ordered_words []str
 	fmt.Printf("Received unsorted numbers: %v\n", nums)
 	sort.Ints(nums)
 
+	return nums
+}
+
+func SortWords(words []string) (ordered_words []string) {
 	/*
 		Sorting strings:
 
@@ -24,5 +28,5 @@ func Sorting(nums []int, words []string) (ordered_num []int, ordered_words []str
 	fmt.Printf("Received unsorted words: %v\n", words)
 	sort.Strings(words)
 
-	return nums, words
+	return words
 }

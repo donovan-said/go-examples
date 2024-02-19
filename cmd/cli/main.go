@@ -11,8 +11,10 @@ func main() {
 	fmt.Println(">> SORTING ALGORITHMS")
 
 	mySliceInts := []int{5, 2, 6, 3, 1, 4}
+	ordered_num := algos.SortNums(mySliceInts)
+	fmt.Printf("Sorted numbers are: %v\n", ordered_num)
+
 	mySliceWords := []string{"banana", "apple", "cucumber"}
-	n, w := algos.Sorting(mySliceInts, mySliceWords)
-	fmt.Printf("Sorted numbers are: %v\n", n)
-	fmt.Printf("Sorted works are: %v", w)
+	ordered_words := algos.SortWords(mySliceWords)
+	fmt.Printf("Sorted works are: %v", ordered_words)
 }
