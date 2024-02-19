@@ -14,6 +14,7 @@ func SortNums(nums []int) (ordered_num []int) {
 
 	fmt.Printf("Received unsorted numbers: %v\n", nums)
 	sort.Ints(nums)
+	fmt.Printf("Sorted numbers are: %v\n", nums)
 
 	return nums
 }
@@ -27,6 +28,7 @@ func SortWords(words []string) (ordered_words []string) {
 
 	fmt.Printf("Received unsorted words: %v\n", words)
 	sort.Strings(words)
+	fmt.Printf("Sorted words are: %v", words)
 
 	return words
 }

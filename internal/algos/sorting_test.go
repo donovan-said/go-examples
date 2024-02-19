@@ -15,5 +15,4 @@ func TestSortNums(t *testing.T) {
 			t.Errorf("Mismatch in slice!")
 		}
 	}
-
 }
