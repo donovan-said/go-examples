@@ -26,9 +26,17 @@ func algos() {
 }
 
 func points() {
-	fmt.Println(">> POINTER EXAMPLES")
+	fmt.Println(">> MODIFYING POINTERS")
 
-	pointers.UsingPointers()
+	pointers.ModifyingPointers("shark", "jellyfish")
+
+	fmt.Println(">> FUNCTION POINTER RECEIVERS")
+
+	pointers.FunctionPointerReceivers()
+
+	fmt.Println(">> NIL POINTERS")
+
+	fmt.Println(">> METHOD POINTER RECEIVERS")
 }
 
 func main() {
