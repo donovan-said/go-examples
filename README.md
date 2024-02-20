@@ -4,7 +4,7 @@ A repository to play around with go, create examples, and collate useful snippet
 
 ## Testing
 
-Each sample should have an associated test. To run these tests run the folloing:
+Each sample should have an associated test. To run these tests run the following:
 
 ```shell
 go test ./... -v
