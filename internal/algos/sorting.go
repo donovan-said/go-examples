@@ -28,7 +28,7 @@ func SortWords(words []string) (ordered_words []string) {
 
 	fmt.Printf("Received unsorted words: %v\n", words)
 	sort.Strings(words)
-	fmt.Printf("Sorted words are: %v", words)
+	fmt.Printf("Sorted words are: %v\n", words)
 
 	return words
 }

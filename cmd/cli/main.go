@@ -8,12 +8,19 @@ import (
 )
 
 func main() {
+	// Sorting Algorithms
 	fmt.Println(">> SORTING ALGORITHMS")
 
-	mySliceInts := []int{5, 2, 6, 3, 1, 4}
-	algos.SortNums(mySliceInts)
+	SortSliceInts := []int{5, 2, 6, 3, 1, 4}
+	algos.SortNums(SortSliceInts)
 
-	mySliceWords := []string{"banana", "apple", "cucumber"}
-	algos.SortWords(mySliceWords)
+	SortSliceWords := []string{"banana", "apple", "cucumber"}
+	algos.SortWords(SortSliceWords)
+
+	// Sorting Algorithms
+	fmt.Println(">> SEARCH ALGORITHMS")
+
+	SearchSliceInts := []int{1, 2, 3, 4, 5, 6}
+	algos.Search(SearchSliceInts)
 
 }

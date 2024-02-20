@@ -4,9 +4,9 @@ A repository to play around with go, create examples, and collate useful snippet
 
 ## Requirements
 
-| Tool                                                                                     | Description                                     |
-|:-----------------------------------------------------------------------------------------|:------------------------------------------------|
-| [pre-commit](https://pre-commit.com/)                                                    | Used to ensure standards prior to commits       |
+| Tool                                  | Description                               |
+| :------------------------------------ | :---------------------------------------- |
+| [pre-commit](https://pre-commit.com/) | Used to ensure standards prior to commits |
 
 ## Setup
 
@@ -21,6 +21,14 @@ command:
 
 ```shell
 pre-commit install
+```
+
+## Testing
+
+Each sample should have an associated test. To run these tests run the folloing:
+
+```shell
+go test ./... -v
 ```
 
 # References
