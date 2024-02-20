@@ -19,7 +19,7 @@ __Reference__:
 
 ## [0.3.0]
 
-### Chnaged
+### Changed
 
 * Refactored sorting algorithm
 
