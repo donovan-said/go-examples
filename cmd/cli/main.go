@@ -7,7 +7,7 @@ import (
 	"github.com/donovan-said/go-examples/internal/algos"
 )
 
-func main() {
+func algorithms() {
 	// Sorting Algorithms
 	fmt.Println(">> SORTING ALGORITHMS")
 
@@ -22,5 +22,9 @@ func main() {
 
 	SearchSliceInts := []int{1, 2, 3, 4, 5, 6}
 	algos.Search(SearchSliceInts)
+}
 
+func main() {
+
+	algorithms()
 }
