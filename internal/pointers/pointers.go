@@ -6,6 +6,8 @@ package pointers
 
 import "fmt"
 
+// Modifying Pointers
+
 func ModifyingPointers(creature string, new_creature string) (result string) {
 
 	var pointer *string = &creature
