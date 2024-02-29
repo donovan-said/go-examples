@@ -5,6 +5,7 @@ import (
 
 	// Import the local package
 	"github.com/donovan-said/go-examples/internal/algorithms"
+	"github.com/donovan-said/go-examples/internal/file"
 	"github.com/donovan-said/go-examples/internal/pointers"
 )
 
@@ -39,8 +40,12 @@ func points() {
 	fmt.Println(">> METHOD POINTER RECEIVERS")
 }
 
-func main() {
+func loading() {
+	file.JsonParser()
+}
 
+func main() {
+	loading()
 	algos()
 	points()
 }
